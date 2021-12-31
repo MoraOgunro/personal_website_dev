@@ -15,7 +15,7 @@
           >GitHub</a
         >
         <router-link v-if="hasImage" class="button imagelink" :to="route"
-          >Click to See Images</router-link
+          >Project Page</router-link
         >
       </div>
     </div>
@@ -41,7 +41,6 @@ export default {
 </script>
 
 <style lang="sass">
-$blue-color: #0062ff
 .item-container
   display: flex
 .item-rectangle
@@ -49,7 +48,7 @@ $blue-color: #0062ff
   flex-grow: 0
   width: 0.5rem
   height: inherit
-  background-color: $blue-color
+  background-color: $red
   margin-right: 1rem
 .gitlink
   color: grey
@@ -57,16 +56,18 @@ $blue-color: #0062ff
   margin-right: 1rem
 .imagelink
   font-weight: 500
-  color: $blue-color
+  color: $red
 .button:active, .button:hover
-  background-color: $blue-color
-  color: #fff
-  border-color: $blue-color
+  background-color: $red
+  color: $white
+  border-color: $red
 .header
   font-size: 1.2rem
   font-weight: 800
+  color: $green
 .description
   white-space: pre-wrap
   margin-top: 1rem
   margin-bottom: 1rem
+  color: $white
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="section has-text-black">
+  <div class="section">
     <div class="block">
       <router-link to="/" class="button">Back</router-link>
     </div>
@@ -73,7 +73,3 @@ export default {
   },
 };
 </script>
-<style lang="sass">
-html
-  background-color: #fff
-</style>

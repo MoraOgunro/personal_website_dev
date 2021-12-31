@@ -18,7 +18,7 @@
       </div>
     </div>
     <!-- Hero footer: will stick at the bottom -->
-    <div class="hero-foot has-text-centered">
+    <div class="hero-foot has-text-centered has-text-white">
       <p>Last updated December 2021</p>
     </div>
   </section>
@@ -38,15 +38,7 @@ export default {
   },
 };
 </script>
-<style lang="sass">
-$background-color: #FFFFFF
-.hero
-  background-color: $background-color
-  color: black
-  background: url('/src/assets/bg.png')
-  background-size: cover
-  background-repeat: no-repeat
-  background-origin: center
+<style scoped lang="sass">
 .hero-body
   flex-direction: column
   justify-content: center
@@ -57,10 +49,11 @@ $background-color: #FFFFFF
 .title
   font-size: min(25vw,200px)
   font-weight: 800
-  color: black
+  color: $white
 .subtitle
   font-size: min(4vw,30px)
   font-weight: 500
+  color: $yellow
 .sof
   text-align: center
 .links
@@ -70,9 +63,9 @@ $background-color: #FFFFFF
   display: flex
   flex-direction: column
 a
-  color: black
+  color: $white
   &:hover
-    color: #0085FF
+    color: $green
 @media screen and (min-width: 870px)
   .links
     flex-direction: row
