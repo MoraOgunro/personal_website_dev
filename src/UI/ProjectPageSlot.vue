@@ -40,31 +40,29 @@
 
 <style lang="sass" scoped>
 .section
-    display: flex
-    flex-direction: column
+  display: flex
+  flex-direction: column
 .images
-    margin: auto
+  margin: auto
 h1
-    color: $white
-img
-    width: 100%
-    height: fit-content
+  color: $white
+
 .project-name
-    font-weight: 800
-    font-size: max(10vw,2rem)
+  font-weight: 800
+  font-size: max(10vw,2rem)
 .skills
-    font-size: max(3vw,1rem)
-    font-weight: 500
-    margin-bottom: 1rem
-    color: $green
+  font-size: max(3vw,1rem)
+  font-weight: 500
+  margin-bottom: 1rem
+  color: $green
 
 @media screen and (min-width: 1024px)
-    .project-name
-        font-size: 100px
-        .skills
-            font-size: 30px
-    .goals-section
-        width: 50vw
-        align-self: center
-        margin: auto
+  .project-name
+    font-size: 100px
+  .skills
+    font-size: 30px
+  .goals-section
+    width: 50vw
+    align-self: center
+    margin: auto
 </style>

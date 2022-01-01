@@ -5,7 +5,12 @@
       Vue.js, Vue Router, Javascript, SASS, Bulma
     </template>
     <template v-slot:images>
-      Vue.js, Vue Router, Javascript, SASS, Bulma
+      <video
+        width="720"
+        src="../../assets/videos/dune.mp4"
+        autoplay
+        muted
+      ></video>
     </template>
     <template v-slot:goals
       >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
