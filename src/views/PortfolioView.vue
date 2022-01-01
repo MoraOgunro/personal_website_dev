@@ -34,7 +34,7 @@ export default {
       "A functional GUI application to query a SQL database of Superheroes.\n- The application builds a database using MySQL.\n- User can run queries on this database by selecting the corresponding button and the results will be displayed within the GUI.\n- .NET backend\n\n GUI, C#, MySQL, and .NET.";
     const projectList = [
       {
-        header: "Vue.js Responsive Dune Website",
+        header: "Dune Information Website",
         description: dunetext,
         githubLink: "https://github.com/MoraOgunro/dune2",
         hasImage: true,
@@ -52,7 +52,7 @@ export default {
       {
         header: "Personal Website",
         description: porttext,
-        githubLink: "https://github.com/MoraOgunro/moraogunro.github.io",
+        githubLink: "https://github.com/MoraOgunro/personal_website_dev",
         hasImage: false,
         hasGit: true,
         route: "/",
