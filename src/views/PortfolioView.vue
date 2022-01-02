@@ -27,7 +27,7 @@ export default {
     var dunetext =
       "An informative and responive websiste for the 2021 film, Dune.\n- Desktop and Mobile interfaces using modern design principles\n- Design logic can also be applied to comapny product listings\n- Transitions and animations applied to UI objects\n\nVue.js, Custom SASS, Bulma, Routers, Responsive Design";
     var porttext =
-      "What you're looking at right now. My most elegant personal webiste yet.\n- Built to look good on mobile and on desktop\n- Modern UI principles\n- Custom Javascript\n\nVue.js, UI, Photoshop, XD, Bulma, Custom SASS, Routers, Responsive Design";
+      "What you're looking at right now. My most elegant personal webiste yet (v4).\n- Built to look good on mobile and on desktop\n- Modern UI principles\n- Custom Javascript\n\nVue.js, Photoshop, Figma, XD, Bulma, SASS, Routers";
     var andtext =
       "An Android application that allows users to stream music from a local server, similar to Spotify.\n- Server stores and API and all data associated with  a database of songs\n- Client can connect to the Server and use the retreived data to render UI elements\n- Client streams music through an API call to the server\n- Material Design\n\nJava, Server to Client communication, Custom API, Asyncronous Threading, Proxy Communication";
     var suptext =

@@ -48,7 +48,7 @@ export default {
   flex-grow: 0
   width: 0.5rem
   height: inherit
-  background-color: $red
+  background-color: $white
   margin-right: 1rem
 .gitlink
   color: grey

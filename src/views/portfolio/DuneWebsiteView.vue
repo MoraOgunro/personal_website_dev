@@ -13,23 +13,21 @@
       ></video>
     </template>
     <template v-slot:goals
-      >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
-      officiis sit magni, maxime aspernatur doloremque ullam ut ipsa sequi
-      repellat provident similique sed nam culpa quis eos? Accusantium, amet
-      possimus.</template
+      >The purpose of this project was to develop my understanding of Vue, Vue
+      routing, components, and css styling. The website serves as an educational
+      brocure for the various houses in Frank Herbert's DUNE.</template
     >
     <template v-slot:challenges
-      >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
-      officiis sit magni, maxime aspernatur doloremque ullam ut ipsa sequi
-      repellat provident similique sed nam culpa quis eos? Accusantium, amet
-      possimus.</template
-    >
+      >Getting Vue set up with Sass required me to learn about Webpack, scoped
+      styling, and config files. It was also my first time using a router, but
+      that was easy to pick up. I did not allow myself to use any css frameworks
+      for the homepage. Some styling choices worked on Firefox, but not on
+      Chrome.
+    </template>
     <template v-slot:wrap-up
-      >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
-      officiis sit magni, maxime aspernatur doloremque ullam ut ipsa sequi
-      repellat provident similique sed nam culpa quis eos? Accusantium, amet
-      possimus.</template
-    >
+      >I developed my skills in Sass and Vue. Through this project, I became
+      more confident in my use of flexbox and multi-browser support.
+    </template>
   </ProjectPageSlot>
 </template>
 
