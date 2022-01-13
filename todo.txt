@@ -6,3 +6,4 @@
 [] useRoute() for back buttons
 [] routes should use names instead of urls
 [] add more frontend projects
+[] make multiple themes
